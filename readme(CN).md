@@ -38,3 +38,11 @@ curl -X GET "https://api.exaroton.com/v1/servers" -H "Authorization: Bearer YOUR
 当一切就绪之后，双击可执行程序，命令提示符和程序将一同被打开。  
 在程序界面上需要先行选择日志保存位置。该询问在每回打开程序时询问，运行时不再询问  
 程序的反馈信息将由一同打开的命令提示符传递
+
+### 如何打包
+该程序是用Python编写的，并使用PyInstaller打包成可执行文件。[PyInstaller](https://pyinstaller.org/en/stable/).
+
+要自己打包程序，请执行以下步骤：
+```bash
+pyinstaller --onefile main.py
+
