@@ -8,7 +8,7 @@ In other words, when you restart the server, the new logs will overwrite the pre
 By using this project, you can easily fetch and download each log in the background, saving it to your specified location.  
 
 # How to Use?
-In the "Code" section, you will find a folder named Log Auto-Download Tool. Download it.  
+In the "Code" section, you will find a folder named * *Log Auto-Download Tool* *. Download it.  
 Inside the folder, there are two files: an executable program and a configuration file.  
 Before opening the executable file (the .exe file), you need to first open the configuration file config.json  
 and enter your API key and server ID in the corresponding fields, then save the file.  
