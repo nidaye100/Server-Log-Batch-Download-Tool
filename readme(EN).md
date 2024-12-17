@@ -37,3 +37,11 @@ Once everything is set up, double-click the executable file, and the command pro
 The program will first ask you to choose the log save location. This prompt will appear only the first time you open the program;   
 it will not ask again during subsequent runs.  
 The feedback from the program will be displayed in the command prompt that is opened alongside it.
+
+### How to Package
+This program is written in Python and packaged into an executable using [PyInstaller](https://pyinstaller.org/en/stable/).
+
+To package the program yourself:
+```bash
+pyinstaller --onefile main.py
+
